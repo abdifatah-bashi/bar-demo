@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Categories Footer</title>
+    <!-- Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap 3 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <!-- Custom styles to match Bootstrap 3 -->
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+      }
+      .gap-2 {
+        margin-right: 8px;
+      }
+      .gap-4 {
+        margin-bottom: 16px;
+      }
+      .text-primary {
+        color: rgb(0, 114, 195) !important;
+      }
+      .text-secondary {
+        color: rgb(107, 114, 128) !important;
+      }
+      h2 {
+        font-weight: 600;
+      }
+      .text-muted {
+        font-weight: 400;
+      }
+      .category-list span {
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      style="
+        height: 60px;
+        background: white;
+        box-shadow: 0 5px 10px rgba(208, 212, 218, 0.15);
+        margin-bottom: 60px;
+      "
+    >
+      <div
+        class="container"
+        style="height: 100%; display: flex; align-items: center; justify-content: space-between"
+      >
+        <!-- Logo Section -->
+        <div style="display: flex; align-items: center; gap: 8px">
+          <!-- Logo Icon -->
+          <img src="./assets/logo.png" alt="BuyAndRead Logo" style="width: 32px; height: 32px" />
+          <!-- Logo Text -->
+          <div style="color: rgb(0, 30, 51); font-weight: 600">BuyAndRead</div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div style="display: flex; gap: 48px">
+          <a href="#" style="color: rgb(107, 114, 128); text-decoration: none">Bladkiosk</a>
+          <a href="#" style="color: rgb(107, 114, 128); text-decoration: none">Arkivet</a>
+        </div>
+
+        <!-- Menu Icon -->
+        <button style="background: none; border: none; padding: 4px">
+          <i class="bi bi-list" style="font-size: 24px; color: rgb(107, 114, 128)"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      style="
+        width: 100%;
+        height: 350px;
+        background-color: rgb(156, 163, 175);
+        position: relative;
+        margin-bottom: 60px;
+        margin-top: -60px;
+      "
+    >
+      <!-- Navigation Dots -->
+      <div
+        style="
+          position: absolute;
+          bottom: 24px;
+          left: 50%;
+          transform: translateX(-50%);
+          display: flex;
+          gap: 7px;
+        "
+      >
+        <!-- Active Dot -->
+        <div style="width: 12px; height: 12px; background-color: white; border-radius: 50%"></div>
+
+        <!-- Inactive Dot 1 -->
+        <div style="width: 12px; height: 12px; border: 1px solid white; border-radius: 50%"></div>
+
+        <!-- Inactive Dot 2 -->
+        <div style="width: 12px; height: 12px; border: 1px solid white; border-radius: 50%"></div>
+      </div>
+    </section>
+
+   
+
+    <!-- Example Text Section -->
+    <section class="container" style="margin-bottom: 60px">
+      <div class="row">
+        <div class="col-xs-12">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              padding: 32px 0;
+            "
+          >
+            <!-- Item 1 -->
+            <div style="display: flex; align-items: center">
+              <i class="bi bi-bookmark text-primary" style="margin-right: 8px"></i>
+              <span class="text-secondary">Dette er en eksempeltekst</span>
+            </div>
+
+            <!-- Item 2 -->
+            <div style="display: flex; align-items: center">
+              <i class="bi bi-bookmark text-primary" style="margin-right: 8px"></i>
+              <span class="text-secondary">Dette er en eksempeltekst</span>
+            </div>
+
+            <!-- Item 3 -->
+            <div style="display: flex; align-items: center">
+              <i class="bi bi-bookmark text-primary" style="margin-right: 8px"></i>
+              <span class="text-secondary">Dette er en eksempeltekst</span>
+            </div>
+
+            <!-- Item 4 -->
+            <div style="display: flex; align-items: center">
+              <i class="bi bi-bookmark text-primary" style="margin-right: 8px"></i>
+              <span class="text-secondary">Dette er en eksempeltekst</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mest populært Section -->
+    <section class="container" style="margin-bottom: 60px">
+      <!-- Header with navigation -->
+      <div class="row" style="margin-bottom: 32px">
+        <div class="col-xs-6">
+          <h2 style="color: rgb(31, 41, 55); font-size: 24px">Mest populært</h2>
+        </div>
+        <div class="col-xs-6 text-right">
+          <div class="d-flex justify-content-end align-items-center">
+            <a
+              href="#"
+              class="text-primary"
+              style="color: rgb(0, 114, 195); text-decoration: none; margin-right: 16px"
+            >
+              Vis alle
+            </a>
+            <div class="btn-group">
+              <button class="btn btn-link" style="padding: 4px">
+                <i
+                  class="bi bi-chevron-left"
+                  style="color: rgb(156, 163, 175); font-size: 24px"
+                ></i>
+              </button>
+              <button class="btn btn-link" style="padding: 4px">
+                <i class="bi bi-chevron-right" style="color: rgb(17, 24, 39); font-size: 24px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Most Popular Grid -->
+      <div class="row">
+        <div class="col-xs-12">
+          <div style="display: flex; gap: 48px; overflow-x: auto">
+            <!-- Item 1 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Item 2 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Item 3 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Item 4 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Item 5 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Item 6 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Publications Overview Section -->
+    <section class="container" style="margin-bottom: 60px">
+      <div
+        style="
+          background-color: rgb(245, 249, 255);
+          border-radius: 36px;
+          padding: 60px;
+          display: flex;
+          gap: 64px;
+          align-items: center;
+        "
+      >
+        <!-- Text Content -->
+        <div style="max-width: 372px">
+          <h2
+            style="color: rgb(17, 24, 39); font-size: 28px; line-height: 1.4; margin-bottom: 16px"
+          >
+            Utforsk 600+ aviser og magasiner
+          </h2>
+          <p style="color: rgb(107, 114, 128); margin-bottom: 16px; line-height: 1.5">
+            Vi tilbyr 673 publikasjoner fordelt på 7 land og til sammen 493 utgivere.
+          </p>
+          <a
+            href="#"
+            style="
+              display: inline-flex;
+              align-items: center;
+              color: rgb(0, 114, 195);
+              text-decoration: none;
+              gap: 4px;
+            "
+          >
+            <span>Gå til alle publikasjoner</span>
+            <i class="bi bi-chevron-right"></i>
+          </a>
+        </div>
+
+        <!-- Image Placeholder -->
+        <div
+          style="
+            width: 360px;
+            height: 360px;
+            background-color: rgb(217, 217, 217);
+            border-radius: 24px;
+          "
+        ></div>
+      </div>
+    </section>
+
+    <!-- Category Example Section -->
+    <section class="container" style="margin-bottom: 60px">
+      <!-- Header with navigation -->
+      <div class="row" style="margin-bottom: 32px">
+        <div class="col-xs-6">
+          <h2 style="color: rgb(31, 41, 55); font-size: 24px">Kategori eksempel</h2>
+        </div>
+        <div class="col-xs-6 text-right">
+          <div class="d-flex justify-content-end align-items-center">
+            <a
+              href="#"
+              class="text-primary"
+              style="color: rgb(0, 114, 195); text-decoration: none; margin-right: 16px"
+            >
+              Vis alle
+            </a>
+            <div class="btn-group">
+              <button class="btn btn-link" style="padding: 4px">
+                <i
+                  class="bi bi-chevron-left"
+                  style="color: rgb(156, 163, 175); font-size: 24px"
+                ></i>
+              </button>
+              <button class="btn btn-link" style="padding: 4px">
+                <i class="bi bi-chevron-right" style="color: rgb(17, 24, 39); font-size: 24px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category Grid -->
+      <div class="row">
+        <div class="col-xs-12">
+          <div style="display: flex; gap: 48px; overflow-x: auto">
+            <!-- Category Item 1 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Category Item 2 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Category Item 3 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Category Item 4 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Category Item 5 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Category Item 6 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Magazine Kiosk Section -->
+    <section class="container" style="margin-bottom: 60px">
+      <!-- Search Area -->
+      <div style="background-color: rgb(245, 249, 255); border-radius: 36px; padding: 60px 0">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <!-- Header Content -->
+            <div style="margin-bottom: 32px">
+              <p class="text-secondary" style="margin-bottom: 8px">Bladkiosk</p>
+              <h2 style="color: rgb(17, 24, 39); font-size: 28px; margin-bottom: 16px">
+                Søk i bladkiosken
+              </h2>
+              <p class="text-secondary" style="margin-bottom: 0">
+                Vi har over 600 publikasjoner som du kan søke gjennom
+              </p>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="row">
+              <div class="col-md-12">
+                <div style="max-width: 482px; margin: 0 auto">
+                  <input
+                    type="text"
+                    placeholder="Søk etter publikasjonstittel"
+                    style="
+                      width: 100%;
+                      height: 46px;
+                      padding: 0 24px;
+                      border: 1px solid rgb(227, 230, 234);
+                      border-radius: 16px;
+                      color: rgb(75, 85, 99);
+                      font-family: 'Poppins', sans-serif;
+                      background-color: white;
+                    "
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Go to Kiosk Link -->
+            <div style="margin-top: 32px">
+              <a
+                href="#"
+                style="
+                  display: inline-flex;
+                  align-items: center;
+                  color: rgb(0, 114, 195);
+                  text-decoration: none;
+                "
+              >
+                <span style="margin-right: 4px">Gå til bladkiosken</span>
+                <i class="bi bi-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+
+    <!-- Newspapers Section -->
+    <section class="container" style="margin-bottom: 60px">
+      <!-- Header with navigation -->
+      <div class="row" style="margin-bottom: 32px">
+        <div class="col-xs-6">
+          <h2 style="color: rgb(31, 41, 55); font-size: 24px">Aviser</h2>
+        </div>
+        <div class="col-xs-6 text-right">
+          <div class="d-flex justify-content-end align-items-center">
+            <a
+              href="#"
+              class="text-primary"
+              style="color: rgb(0, 114, 195); text-decoration: none; margin-right: 16px"
+            >
+              Vis alle
+            </a>
+            <div class="btn-group">
+              <button class="btn btn-link" style="padding: 4px">
+                <i
+                  class="bi bi-chevron-left"
+                  style="color: rgb(156, 163, 175); font-size: 24px"
+                ></i>
+              </button>
+              <button class="btn btn-link" style="padding: 4px">
+                <i class="bi bi-chevron-right" style="color: rgb(17, 24, 39); font-size: 24px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Newspapers Grid -->
+      <div class="row">
+        <div class="col-xs-12">
+          <div style="display: flex; gap: 48px; overflow-x: auto">
+            <!-- Newspaper Item 1 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Newspaper Item 2 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Newspaper Item 3 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Newspaper Item 4 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Newspaper Item 5 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Newspaper Item 6 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Archive Search Section -->
+    <section class="container" style="margin-bottom: 60px">
+      <div style="background-color: rgb(245, 249, 255); border-radius: 36px; padding: 60px 0">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <!-- Header Content -->
+            <div style="margin-bottom: 32px">
+              <p class="text-secondary" style="margin-bottom: 8px">Arkivet</p>
+              <h2 style="color: rgb(17, 24, 39); font-size: 28px; margin-bottom: 16px">
+                Søk i arkivet
+              </h2>
+              <p class="text-secondary" style="margin-bottom: 0">
+                I vårt digitale arkiv har vi 1 168 368 utgaver og 36 272 503 sider
+              </p>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="row">
+              <div class="col-md-12">
+                <div style="display: flex; gap: 0; max-width: 569px; margin: 0 auto">
+                  <!-- Input Field -->
+                  <div style="flex: 1">
+                    <input
+                      type="text"
+                      placeholder="Søk etter tekst"
+                      style="
+                        width: 100%;
+                        height: 46px;
+                        padding: 0 24px;
+                        border: 1px solid rgb(227, 230, 234);
+                        border-right: none;
+                        border-top-left-radius: 4px;
+                        border-bottom-left-radius: 4px;
+                        color: rgb(75, 85, 99);
+                        font-family: 'Poppins', sans-serif;
+                      "
+                    />
+                  </div>
+                  <!-- Search Button -->
+                  <button
+                    style="
+                      width: 130px;
+                      height: 46px;
+                      background-color: rgb(0, 114, 195);
+                      border: none;
+                      border-top-right-radius: 4px;
+                      border-bottom-right-radius: 4px;
+                      color: white;
+                      font-family: 'Poppins', sans-serif;
+                      cursor: pointer;
+                    "
+                  >
+                    Søk i arkivet
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Paper Subscription Section -->
+    <section class="container" style="margin-bottom: 48px">
+      <!-- Header with navigation -->
+      <div class="row" style="margin-bottom: 32px">
+        <div class="col-xs-6">
+          <h2 style="color: rgb(31, 41, 55); font-size: 24px">Papirabonnement</h2>
+        </div>
+        <div class="col-xs-6 text-right">
+          <div class="d-flex justify-content-end align-items-center">
+            <a
+              href="#"
+              class="text-primary"
+              style="color: rgb(0, 114, 195); text-decoration: none; margin-right: 16px"
+            >
+              Vis alle
+            </a>
+            <div class="btn-group">
+              <button class="btn btn-link" style="padding: 4px">
+                <i
+                  class="bi bi-chevron-left"
+                  style="color: rgb(156, 163, 175); font-size: 24px"
+                ></i>
+              </button>
+              <button class="btn btn-link" style="padding: 4px">
+                <i class="bi bi-chevron-right" style="color: rgb(17, 24, 39); font-size: 24px"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Magazine Grid -->
+      <div class="row">
+        <div class="col-xs-12">
+          <div style="display: flex; gap: 48px; overflow-x: auto">
+            <!-- Magazine Item 1 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Magazine Item 2 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Magazine Item 3 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Magazine Item 4 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Magazine Item 5 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+
+            <!-- Magazine Item 6 -->
+            <div style="min-width: 125px">
+              <img
+                src="./assets/aftenposten.png"
+                alt="Aftenposten"
+                style="
+                  width: 125px;
+                  height: 178px;
+                  border-radius: 12px;
+                  object-fit: cover;
+                  margin-bottom: 4px;
+                "
+              />
+              <p class="text-center" style="color: rgb(107, 114, 128); margin: 0">Aftenposten</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="container" style="padding: 48px 15px">
+      <!-- Header Section -->
+      <div class="text-center" style="margin-bottom: 48px">
+        <h2 style="font-size: 24px; margin-bottom: 16px">Oppdag 28 forskjellige kategorier</h2>
+        <p class="text-muted" style="max-width: 520px; margin: 0 auto">
+          Fra kunst og kultur til sport og vitenskap, oppdag vårt mangfold av kategorier.
+        </p>
+      </div>
+
+      <!-- Categories Grid -->
+      <div class="row">
+        <!-- Column 1 -->
+        <div class="col-md-4">
+          <div class="category-list">
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Barn og Ungdom</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Bil, Båt og Motor</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Bransje</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Data og Teknologi</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Design og Arkitektur</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Dyr og Natur</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Familie</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="col-md-4">
+          <div class="category-list">
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Film og Musikk</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Helse og Skjønnhet</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Mann</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Mat og Vin</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Mote</span>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="col-md-4">
+          <div class="category-list">
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Nyheter</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Politikk og Samfunn</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Reise</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Sport</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Ukeblader</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Vitenskap</span>
+              </div>
+            </a>
+            <a href="#" class="text-decoration-none">
+              <div style="display: flex; align-items: center; margin-bottom: 16px">
+                <i class="bi bi-bookmark text-primary gap-2"></i>
+                <span class="text-secondary">Økonomi</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap 3 JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
